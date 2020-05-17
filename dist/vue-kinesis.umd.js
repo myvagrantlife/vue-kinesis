@@ -1774,7 +1774,8 @@ var store = global[SHARED] || (global[SHARED] = {});
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return isTouch; });
 function isTouch() {
-  return /Mobi|Android/i.test(navigator.userAgent);
+  // return /Mobi|Android/i.test(navigator.userAgent);
+  return false;
 }
 
 /***/ }),
